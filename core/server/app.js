@@ -50,6 +50,9 @@ module.exports = function setupParentApp() {
     // ADMIN
     parentApp.use('/ghost', require('./admin')());
 
+    // 7GB
+    parentApp.use('/7gb', require('./7gb')());
+
     // BLOG
     parentApp.use(require('./site')());
 

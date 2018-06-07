@@ -5,6 +5,7 @@
         "clientAssets": "core/built/assets",
         "helperTemplates": "core/server/helpers/tpl/",
         "adminViews": "core/server/admin/views/",
+        "gb7Views": "core/server/7gb/views/",
         "defaultViews": "core/server/views/",
         "internalAppPath": "core/server/apps/",
         "internalStoragePath": "core/server/adapters/storage/",
